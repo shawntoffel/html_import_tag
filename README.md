@@ -1,7 +1,7 @@
 # html_import_tag
 [![Gem Version](https://badge.fury.io/rb/html_import_tag.svg)](http://badge.fury.io/rb/html_import_tag)
 
-Adds an html_import_tag helper to the Rails Asset Pipeline.
+Adds an `html_import_tag` helper to the Rails Asset Pipeline. Useful when importing web components.
 
 Import an html file like so:
 
@@ -11,7 +11,8 @@ The html file will be fingerprinted and imported via link tag.
 
 TODO: 
 - [ ] Add support for an html manifest with directive comments.
-- [ ] Add processors to concatinate multiple files into a single compressed import.
+- [ ] Add processors to concatenate multiple files into a single compressed import.
+- [ ] Add support for nested imports.
 
 ## Contributing
 
