@@ -8,9 +8,11 @@ module ActionView
         sources.uniq.map do |source|
           tag_options = {
             rel: "import",
-            href: path_to_asset(source, {:type => :html}.merge!(path_options))
+            href: path_to_asset(source, {:type => :html, extname: ".html"}.merge!(path_options))
           }.merge!(options)
+
           tag(:link, tag_options)
+
         end.join("\n").html_safe
       end
     end
