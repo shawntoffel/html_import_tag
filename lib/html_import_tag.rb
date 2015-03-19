@@ -1,4 +1,3 @@
 require "html_import_tag/version"
-
-module HtmlImportTag
-end
+require 'html_import_tag/helpers/helper'
+require 'html_import_tag/helpers/asset_url_helper'

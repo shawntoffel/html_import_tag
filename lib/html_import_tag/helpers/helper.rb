@@ -1,6 +1,6 @@
-module Sprockets
-  module Rails
-    module Helper
+module ActionView
+  module Helpers
+    module AssetTagHelper
       def html_import_tag(*sources)
         options = sources.extract_options!.stringify_keys
 
