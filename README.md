@@ -1,26 +1,6 @@
 # HtmlImportTag
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'html_import_tag'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install html_import_tag
-
-## Usage
-
-TODO: Write usage instructions here
+Adds an html_import_tag helper to the Rails Asset Pipeline.
 
 ## Contributing
 
