@@ -8,9 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = HtmlImportTag::VERSION
   spec.authors       = ["Shawn Toffel"]
   spec.email         = ["shawn.toffel@gmail.com"]
-  spec.summary       = %q{html_import_tag}
-  spec.description   = %q{}
-  spec.homepage      = ""
+  spec.summary       = %q{Add html_import_tag to Rails Asset Pipeline}
+  spec.homepage      = "https://github.com/shawntoffel/html_import_tag"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
